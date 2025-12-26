@@ -1,12 +1,12 @@
-\# RU and EN README
+# RU and EN README
 
 
 
-\## RU: Описание проекта
+## RU: Описание проекта
 
 
 
-Данный репозиторий содержит реализацию методики динамической идентификации аппаратной части персонального компьютера (ПК) на основе измерения скорости выполнения кода. Метод основан на оригинальной работе \*\*Iskander Sanchez-Rola\*\* под названием \*"Clock Around the Clock: Time-Based Device Fingerprinting"\*, опубликованной в 2018 году.
+Данный репозиторий содержит реализацию методики динамической идентификации аппаратной части персонального компьютера (ПК) на основе измерения скорости выполнения кода. Метод основан на оригинальной работе Iskander Sanchez-Rola под названием "Clock Around the Clock: Time-Based Device Fingerprinting", опубликованной в 2018 году.
 
 
 
@@ -22,11 +22,11 @@
 
 
 
-\## Особенности реализации
+## Особенности реализации
 
 
 
-\### Первая версия
+### Первая версия
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-\### Вторая версия
+### Вторая версия
 
 
 
@@ -42,11 +42,11 @@
 
 
 
-\- Измерение времени выполнения кода с помощью высокочастотных таймеров (\*\*HPET\*\*, \*\*ACPI\*\*) и низкоуровневых методов доступа к процессору.
+- Измерение времени выполнения кода с помощью высокочастотных таймеров (HPET, ACPI) и низкоуровневых методов доступа к процессору.
 
-\- Улучшенная обработка шума и артефактов измерений благодаря нормализации и фильтрации результатов.
+- Улучшенная обработка шума и артефактов измерений благодаря нормализации и фильтрации результатов.
 
-\- Увеличение количества замеров для уменьшения эффекта случайных отклонений.
+- Увеличение количества замеров для уменьшения эффекта случайных отклонений.
 
 
 
@@ -58,7 +58,7 @@
 
 
 
-\## Результаты исследований
+## Результаты исследований
 
 
 
@@ -66,11 +66,11 @@
 
 
 
-\- Матрица времени выполнения действительно отражает уникальные характеристики конкретного ПК.
+- Матрица времени выполнения действительно отражает уникальные характеристики конкретного ПК.
 
-\- На стабильность результатов влияют внешние условия, такие как нагрузка на систему и состояние центрального процессора.
+- На стабильность результатов влияют внешние условия, такие как нагрузка на систему и состояние центрального процессора.
 
-\- Полностью устранить влияние указанных факторов пока не удалось, хотя достигнут значительный прогресс в улучшении качества полученных данных.
+- Полностью устранить влияние указанных факторов пока не удалось, хотя достигнут значительный прогресс в улучшении качества полученных данных.
 
 
 
@@ -78,7 +78,7 @@
 
 
 
-\## Рекомендации по улучшению
+## Рекомендации по улучшению
 
 
 
@@ -86,11 +86,11 @@
 
 
 
-\- Устойчивость к изменению рабочей нагрузки системы.
+- Устойчивость к изменению рабочей нагрузки системы.
 
-\- Возможность адаптации алгоритмов к различным конфигурациям железа и операционных систем.
+- Возможность адаптации алгоритмов к различным конфигурациям железа и операционных систем.
 
-\- Оптимизация работы с разными видами таймеров (например, выбор наилучшего сочетания аппаратных и программных таймеров).
+- Оптимизация работы с разными видами таймеров (например, выбор наилучшего сочетания аппаратных и программных таймеров).
 
 
 
@@ -108,11 +108,11 @@
 
 
 
-\## EN: Project Description
+## EN: Project Description
 
 
 
-This repository contains an implementation of a technique for dynamically identifying the hardware of a personal computer (PC) based on measuring the speed of code execution. The method is based on the original work by \*\*Iskander Sanchez-Rola\*\* titled \*"Clock Around the Clock: Time-Based Device Fingerprinting"\*, published in 2018.
+This repository contains an implementation of a technique for dynamically identifying the hardware of a personal computer (PC) based on measuring the speed of code execution. The method is based on the original work by Iskander Sanchez-Rola titled "Clock Around the Clock: Time-Based Device Fingerprinting", published in 2018.
 
 
 
@@ -128,11 +128,11 @@ The project includes a series of experiments and practical implementations in or
 
 
 
-\## Implementation features
+## Implementation features
 
 
 
-\### The first version
+### The first version
 
 
 
@@ -140,7 +140,7 @@ Initially, a simple version of the algorithm was developed using the built-in \*
 
 
 
-\### The second version
+### The second version
 
 
 
@@ -148,11 +148,11 @@ In the second attempt, the recommendations of the original author were taken int
 
 
 
-\- Measurement of code execution time using high-frequency timers (\*\*HPET\*\*, \*\*ACPI\*\*) and low-level processor access methods.
+- Measurement of code execution time using high-frequency timers (HPET, ACPI) and low-level processor access methods.
 
-\- Improved processing of noise and measurement artifacts due to normalization and filtering of results.
+- Improved processing of noise and measurement artifacts due to normalization and filtering of results.
 
-\- Increase the number of measurements to reduce the effect of random deviations.
+- Increase the number of measurements to reduce the effect of random deviations.
 
 
 
@@ -164,7 +164,7 @@ Nevertheless, despite the improved stability, the problem of complete reliabilit
 
 
 
-\## Research results
+## Research results
 
 
 
@@ -172,11 +172,11 @@ The experiments have shown the following:
 
 
 
-\- The run-time matrix really reflects the unique characteristics of a particular PC.
+- The run-time matrix really reflects the unique characteristics of a particular PC.
 
-\- The stability of the results is affected by external conditions, such as the load on the system and the state of the CPU.
+- The stability of the results is affected by external conditions, such as the load on the system and the state of the CPU.
 
-\- It has not yet been possible to completely eliminate the influence of these factors, although significant progress has been made in improving the quality of the data obtained.
+- It has not yet been possible to completely eliminate the influence of these factors, although significant progress has been made in improving the quality of the data obtained.
 
 
 
@@ -184,7 +184,7 @@ The experiments have shown the following:
 
 
 
-\## Recommendations for improvement
+## Recommendations for improvement
 
 
 
@@ -192,15 +192,12 @@ It is recommended to continue the development taking into account the identified
 
 
 
-\- Resistance to changes in the workload of the system.
+- Resistance to changes in the workload of the system.
 
-\- The ability to adapt algorithms to different hardware configurations and operating systems.
+- The ability to adapt algorithms to different hardware configurations and operating systems.
 
-\- Optimization of working with different types of timers (for example, choosing the best combination of hardware and software timers).
+- Optimization of working with different types of timers (for example, choosing the best combination of hardware and software timers).
 
 
 
 ---
-
-
-
