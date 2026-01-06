@@ -30,7 +30,7 @@
 
 
 
-Первоначально была разработана простая версия алгоритма, использующая встроенный инструмент \*\*RandBytes()\*\* для измерения скорости выполнения. Несмотря на положительные результаты, стабильность оказалась недостаточной, что подтолкнуло к дальнейшим изысканиям.
+Первоначально была разработана простая версия алгоритма, использующая встроенный инструмент RandBytes() для измерения скорости выполнения. Несмотря на положительные результаты, стабильность оказалась недостаточной, что подтолкнуло к дальнейшим изысканиям.
 
 
 
@@ -92,7 +92,7 @@
 
 - Оптимизация работы с разными видами таймеров (например, выбор наилучшего сочетания аппаратных и программных таймеров).
 
-
+- UPD от 01.2026: в работе "Poster: CFMAP: A Robust CPU Clock Fingerprint Model for Device Authentication" описывается стабилизация результата на основе адаптивного приципа Парето: https://dl.acm.org/doi/10.1145/3548606.3563528 .В моей работе эта статья не учитывалась т.к. она просто не попадалась мне на глаза.
 
 ---
 
@@ -136,7 +136,7 @@ The project includes a series of experiments and practical implementations in or
 
 
 
-Initially, a simple version of the algorithm was developed using the built-in \*\*RandBytes()\*\* tool to measure execution speed. Despite the positive results, stability proved to be insufficient, which prompted further research.
+Initially, a simple version of the algorithm was developed using the built-in RandBytes() tool to measure execution speed. Despite the positive results, stability proved to be insufficient, which prompted further research.
 
 
 
@@ -198,6 +198,7 @@ It is recommended to continue the development taking into account the identified
 
 - Optimization of working with different types of timers (for example, choosing the best combination of hardware and software timers).
 
+- UPD from 01.2026: the paper "Poster: CFMAP: A Robust CPU Clock Fingerprint Model for Device Authentication" describes the stabilization of the result based on the adaptive Pareto principle: https://dl.acm.org/doi/10.1145/3548606.3563528 .In my work, this article was not taken into account because it simply did not catch my eye.
 
 
 ---
